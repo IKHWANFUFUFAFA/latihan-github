@@ -24,11 +24,42 @@
       .font-latin {
         font-family: 'Arizonia', cursive;
       }
+
+      .bunga-atas-kiri {
+        position: absolute;
+        width: 50%;
+        left: -20%;
+        top: -7%;
+      }
+      .bunga-atas-kanan {
+        position: absolute;
+        width: 50%;
+        right: -20%;
+        top: -7%;
+      }
+      .bunga-bawah-kiri {
+        position: absolute;
+        width: 50%;
+        left: -10%;
+        bottom: -10%;
+      }
+      .bunga-bawah-kanan {
+        position: absolute;
+        width: 50%;
+        right: -10%;
+        bottom: -10%;
+      }
     </style>
   </head>
   <body class="bg-white">
     <!-- cover undangan -->
     <section class="overflow-hidden relative text-center mx-auto h-screen w-full max-w-md flex items-center justify-center flex-col" style="background-color: #d2ebe8">
+      <div>
+        <img src="/images/flower-top-left.png" class="bunga-atas-kiri" />
+        <img src="/images/flower-top-right.png" class="bunga-atas-kanan" />
+        <img src="/images/flower-bottom-left.png" class="bunga-bawah-kiri" />
+        <img src="/images/flower-bottom-right.png" class="bunga-bawah-kanan" />
+      </div>
       <div style="position: relative; z-index: 99">
         <div class="mb-5" data-aos="zoom-in" data-aos-duration="3000">The Wedding Of</div>
         <div class="mb-4 mx-auto size-44 rounded-full overflow-hidden" data-aos="flip-up" data-aos-duration="3000">
